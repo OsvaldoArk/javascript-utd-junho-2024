@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Ficha de hábitos saudáveis</h1>
+    <form action="./index.html" method="post">
+       <fieldset>
+            <legend>Dados da sua rotina</legend>
+            <input type="text" name="nome" id="nomeId" placeholder="digite seu nome aqui">
+            <br><br>
+            <label for="">
+                data de nascimento <br>
+                <input type="date" name="dataNascimento" id="dataNascimentoId">
+            </label>
+            <br><br>
+            <select name="nivelEscolaridade" id="">
+                <option value="#" selected disabled>selecione uma das opções</option>
+                <option value="1">fundamental</option>
+                <option value="2">médio</option>
+                <option value="3">superior</option>
+                <option value="4">pós graduação</option>
+            </select>
+            <br><br>
+            <p>que tipo de atividade você pratica?</p>
+            <label for="">
+                corrida
+                <input type="checkbox" name="1" id="">
+            </label>
+            <label for="">
+                natação
+                <input type="checkbox" name="2" id="">
+            </label>
+            <label for="">
+                academia
+                <input type="checkbox" name="1" id="" checked>
+            </label>
+            <br><br>
+                <p>Qual o horário que costuma se exercitar</p>
+                <label>
+                    manhã
+                    <input type="radio" name="turno" checked>
+                </label>
+                <label>
+                    tarde
+                    <input type="radio" name="turno">
+                </label>
+                <label>
+                    noite
+                    <input type="radio" name="turno">
+                </label>
+            <br><br>
+            <input type="reset" value="apagar campos">
+            <button type="submit">finalizar</button>
+       </fieldset>
+    </form>
+</body>
+</html>
