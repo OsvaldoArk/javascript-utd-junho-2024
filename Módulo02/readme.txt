@@ -5,3 +5,4 @@ You deserve to have so much more
 I can feel your heart and I sympathize
 And I'll never criticize all you've ever meant to my life
 Air supply
+Quem disse que o amor pode acabar. Quem foi que disse que o amor pode acabar?
