@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conoscop</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <label>
+            assunto:
+            <input type="text" name="assunto"
+                placeholder="digite seu nome"
+                maxlength="5" size="20"
+                readonly>
+        </label>
+        <br>
+        <br>
+        <p>
+            dê uma pontuação para o seu atendimento
+        </p>
+        <label>
+            feliz<input type="radio" name="categoria" checked>
+        </label>
+        <label>
+            indiferente<input type="radio" name="categoria">
+        </label>
+        <label>
+            zangado<input type="radio" name="categoria">
+        </label>
+        <br>
+        <br>
+        <label>
+            email:
+            <input type="email" name="email">
+        </label>
+        <br>
+        <br>
+        <p>categoria</p>
+        <p>
+            <select name="categoria" id="">
+                <option value="#" disabled selected>escolha uma das opções</option>
+                <option value="1">dúvida</option>
+                <option value="2">sugestão</option>
+                <option value="3">reclamação</option>
+            </select>
+        </p>
+        <label>
+            descrição
+            <textarea name="descricao" id=""></textarea>
+        </label>
+        <br>
+        <br>
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar os campos">
+    </form>
+</body>
+</html>
