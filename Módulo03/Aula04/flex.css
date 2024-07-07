@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+#container{
+    padding: 10px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#navegacao{
+    width: 100%;
+    height: 30px;   
+    background-color: crimson;
+}
+
+#principal{
+    width: 100vw;
+    height:80vh;
+    display: flex;
+    flex-direction: row;
+}
+
+#painel{
+    width:70vw;
+    height:70vh;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+#cabecalho{
+    width: 70vw;
+    height:70px;
+    margin-bottom: 15px;
+    background-color: darkmagenta;
+}
+
+#lateral{
+    width: 20vw;
+    height:70vh;
+    margin: 15px 0px;
+    background-color: chartreuse;
+}
+
+#conteudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#primeira{
+    width: 30vw;
+    height: 200px;
+    background-color:cadetblue;
+}
+
+#segunda{
+    width: 30vw;
+    height: 200px;
+    background-color: slateblue;
+}
+
+#rodape{
+    width: 100%;
+    height: 30px;
+    background-color: salmon;
+}

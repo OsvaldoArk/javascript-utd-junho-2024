@@ -29,9 +29,9 @@ h1:hover{
 }
 
 #perfil {
-    margin:20px;
     width:70px;
-    height:70px;
+    height:70px;   
+    margin-right: 5px;
 }
 
 #perfil > img{
@@ -63,3 +63,51 @@ h1:hover{
    font-family: "Oswald", sans-serif;
    font-weight: bolder;
 }
+
+#container{
+    width: 100vw;
+    height: 70px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#container >div>p{
+    font-size: 10px;
+    margin-top: 8px;
+}
+
+#topicos{
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.medalha{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.medalha > figure{
+    width: 100%;
+    height: inherit;
+}
+
+.medalha > figure > img{
+  object-fit: contain;
+}
+
+.medalha > figure > figcaption{
+    font-size: 8px;
+    text-align: center;
+}
+

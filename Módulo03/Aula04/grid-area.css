@@ -1,0 +1,60 @@
+#container{
+    padding: 10px;
+    display: grid;
+    gap:15px;
+    grid-template-columns: 35vw 35vw 20vw;
+    grid-template-rows: 10vh 20vh 45vh 10vh;
+    grid-template-areas: "navegacao navegacao navegacao"
+                         "cabecalho cabecalho lateral"
+                         "primeira segunda lateral"
+                         "rodape rodape rodape";
+}
+
+@media screen and (max-width: 500px) {
+    body{
+        background-color: black;
+    }
+    #container{
+        padding: 5px;
+        display: grid;
+        gap:5px;
+        grid-template-columns: 95vw;
+        grid-template-rows: 10vh repeat(2,20vh) repeat(2,45vh) 10vh;
+        grid-template-areas: "navegacao"
+                             "cabecalho"
+                             "lateral"
+                             "primeira"
+                             "segunda"
+                             "rodape";
+    }
+}
+
+#navegacao{
+    grid-area:navegacao;
+    background-color: crimson;
+}
+
+#cabecalho{
+    grid-area:cabecalho;
+    background-color: darkmagenta;
+}
+
+#lateral{
+    grid-area: lateral;
+    background-color: chartreuse;
+}
+
+#primeira{
+    grid-area: primeira;
+    background-color:cadetblue;
+}
+
+#segunda{
+    grid-area: segunda;
+    background-color: slateblue;
+}
+
+#rodape{
+    grid-area: rodape;
+    background-color: salmon;
+}
