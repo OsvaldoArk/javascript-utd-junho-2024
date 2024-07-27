@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    margin: 200px 0 200px 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0F0F0;
+    font-family: "Roboto", sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url('./../assets/Designer\ \(3\).jpeg');
+}
+
+.cabecalho{
+    background-color: #3498DB;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px 10px 0 0 ;
+    text-align: center;
+}
+
+.conteudo__principal{
+    background-color: #FFFFFF;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 10px 10px;
+
+}
+
+#pResult{
+    width: 75%;
+    margin: 15px auto;
+    font-weight: 500;
+}
+
+#inputNumber{
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 4px 3px rgba(0, 0, 0, 0.5);
+    font-weight: bolder;
+    text-align: center;
+}
+
+button{
+    width: 22%;
+    margin: 5px;
+    padding: 10px 2px;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    cursor: pointer;
+}
+
+#btnIniciarChutar{
+    background-color: #2ECC71;
+}
+
+#btnNovoJogo{
+    background-color: #E74C3C;
+
+}
+
+#btnIniciarChutar:hover:not(:disabled) {
+    background-color: #27ae60 ;
+}
+
+#btnNovoJogo:hover:not(:disabled){
+    background-color: #c0392b;
+}
+
+button:disabled{
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+footer{
+    font-size: 0.8rem;
+    font-weight: bolder;
+    color: black;
+    background-color: #3498DB;
+    width: 100%;
+    position: absolute;
+    top: 724px;
+    text-align: center;
+}
+
+.piscar {
+    animation: piscar 0.5s 3;
+}
+
+@keyframes piscar {
+    0% { background-color: transparent; }
+    50% { background-color: #ffcccb; }
+    100% { background-color: transparent; }
+}
